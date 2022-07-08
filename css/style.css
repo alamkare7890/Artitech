@@ -1,0 +1,63 @@
+/*
+    --e-global-color-primary: #D16527;
+    --e-global-color-secondary: #121212;
+    --e-global-color-text: #161616;
+    --e-global-color-accent: #242424;
+    --e-global-color-11fee7f: #606060;
+    --e-global-color-7ff2b2d: #C6C6C6;
+    --e-global-color-0d3036c: #EDEDED;
+    --e-global-color-024918e: #ECCD39
+*/
+/*=========Color-Variable========
+$mainbgColor: #161616;#4D483B
+$bgColor: #121212;
+$btnColor: #0a0909;#b19777
+$mainColor: #EDEDED;#8C8C8C
+$textColor: #AAC0C6;#5A5A5A
+$contentColor: #C6C6BB;#D1CCBE
+$headingColor: #000;
+$fontColor: #fff;
+*/
+/*=========Font-Variable========*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  font-family: "Courier Prime", monospace;
+}
+
+.main-head {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.secondary-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*--------header-section-----------*/
+/*--------about-section-----------*/
+/*--------desing-section-----------*/
+/*--------work-section-----------*/
+/*--------partner-section-----------*/
+/*--------blog-section-----------*/
+/*--------evnets-section-----------*/
+/*--------project-section-----------*/
+/*--------benefits-section-----------*/
+/*--------brand-section-----------*/
+/*--------contact-section-----------*/
+/*--------footer-section-----------*/
