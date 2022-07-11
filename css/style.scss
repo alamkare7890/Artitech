@@ -71,7 +71,7 @@ html,body{
     font-size: 2.5rem;
     font-weight: 700;
     font-family: $mainFont;
-
+    text-transform: uppercase;
 }
 .para{
     font-size: 0.75rem;     
@@ -95,12 +95,13 @@ html,body{
 .title{
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     color: $fontColor;
     padding-bottom: 5px;
     border-bottom: 2px solid $fontColor;
 
 }
+
     /*--------nav-section-----------*/
 @import "nav"; 
 
@@ -112,7 +113,7 @@ html,body{
     /*--------desing-section-----------*/
 
     /*--------work-section-----------*/
-
+@import "work";
     /*--------partner-section-----------*/
 
     /*--------blog-section-----------*/

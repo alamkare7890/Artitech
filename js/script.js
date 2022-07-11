@@ -15,4 +15,20 @@ $(document).ready(function () {
     
     })
 
+    $('.work-slide').slick({
+        asNavFor:'.work-content-slide',
+        arrows: false,
+    
+    })
+    $('.work-content-slide').slick({
+        asNavFor: '.work-slide',    
+        arrows: false,
+        
+    })
+    
+
+        
+    
+    
+    
 })
