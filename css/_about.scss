@@ -1,0 +1,14 @@
+.about-us{
+    padding: 50px 0;
+    background-color: $mainbgColor;
+    .about-some{
+
+        h2{
+            text-transform: uppercase;
+            color: $fontColor;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}

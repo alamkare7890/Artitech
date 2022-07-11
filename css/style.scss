@@ -67,6 +67,11 @@ html,body{
     font-family: $mainFont;
 
 }
+.para{
+    font-size: 0.75rem;     
+    font-weight: 400;
+    color: $textColor;
+}
 .secondary-head{
     font-size: 1.5rem;
     font-weight: 500;
@@ -77,6 +82,10 @@ html,body{
     flex-wrap: wrap;
 
 }
+.max-width{
+    max-width: 1366px;
+
+}
     /*--------nav-section-----------*/
 @import "nav"; 
 
@@ -84,7 +93,7 @@ html,body{
 @import "header";
 
     /*--------about-section-----------*/
-
+@import "about";
     /*--------desing-section-----------*/
 
     /*--------work-section-----------*/
