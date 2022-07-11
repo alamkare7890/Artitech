@@ -1,7 +1,7 @@
 .navigation{
     padding: 0;
-    border: 1px solid red;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 50px;
     .logo{
 
         img{
@@ -10,7 +10,9 @@
             object-fit: contain;
         }
     }
-
+    .water-mark{
+        display: none;
+    }
     ul{
 
         li{
@@ -21,26 +23,53 @@
                 font-weight: 400;
             }
         }
+        .active{
+            color: $linkColor;
+
+        }
     }
 
  
 }
 /*==========navigation-media==========*/
-@media only screen and (max-width:768){
-
+@media only screen and (max-width:768px){ 
+html,body{
+    font-size: 16px;
+}
     .navigation{
+        width: 100%;
         height: 100%;
         background-color: $bgColor;
+        opacity: 0.9;
+        position: relative;
         .logo{
             display: none;
         }
 
         ul{
-            display: flex;
-            @extend %flexCenter;
+            padding: 50px;
+            text-align: center;
+            li{ 
+                a{
+                    font-size: 1.5rem;
+                   
+
+                }
+            }
 
         }
-
+        .water-mark{
+            display: block;
+            color: $contentColor;
+            font-size: 10rem;
+            font-weight: 600;
+            z-index: -5;
+            position: absolute;
+            left: 20%;
+            transform: translateX(-20%);
+            text-align: center;
+            opacity: 0.8;
+        }
     }
 
 

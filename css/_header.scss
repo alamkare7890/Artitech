@@ -1,18 +1,45 @@
-.header{
-    @extend %bgImage;
-    background-image: url(../image/jpg/image3.jpg);
-    height: 100%;
+.banner-slide{
+    height: 950px;
+    background-color: $mainbgColor;
     position: relative;
+    z-index: -1;
+    img{
+        width: 100%;
+        height: 750px;
+        object-fit: cover;
+    }
+}
+    
+
+.header{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 0;
+    background-color: #21212163;
+
+    .overlay{
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        padding: 30px;
+        .header-head{
+            color: $fontColor;
+
+            span{
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                font-weight: 400;
+            }
+            h1{
+                font-size: 3rem;
+                font-weight: 700;
+            }        
+
+        }
+    }
+
 } 
 
-.header::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    background-color: #21212157;
-    z-index: -1;
-} 
