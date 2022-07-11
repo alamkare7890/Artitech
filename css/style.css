@@ -8,17 +8,14 @@
     --e-global-color-0d3036c: #EDEDED;
     --e-global-color-024918e: #ECCD39
 */
-/*=========Color-Variable========
-$mainbgColor: #161616;#4D483B
-$bgColor: #121212;
-$btnColor: #0a0909;#b19777
-$mainColor: #EDEDED;#8C8C8C
-$textColor: #AAC0C6;#5A5A5A
-$contentColor: #C6C6BB;#D1CCBE
-$headingColor: #000;
-$fontColor: #fff;
-*/
+/*=========Color-Variable========*/
 /*=========Font-Variable========*/
+.header {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -26,10 +23,10 @@ $fontColor: #fff;
 }
 
 html, body {
-  font-size: 16px;
+  font-size: 24px;
   width: 100%;
   height: 100%;
-  font-family: "Courier Prime", monospace;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-head {
@@ -49,7 +46,43 @@ html, body {
   flex-wrap: wrap;
 }
 
+/*--------nav-section-----------*/
+.navigation {
+  padding: 0;
+  border: 1px solid red;
+  padding: 20px;
+}
+.navigation .logo img {
+  width: 100%;
+  height: 68px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.navigation ul li a {
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
 /*--------header-section-----------*/
+.header {
+  background-image: url(../image/jpg/image3.jpg);
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 33, 33, 0.3411764706);
+  z-index: -1;
+}
+
 /*--------about-section-----------*/
 /*--------desing-section-----------*/
 /*--------work-section-----------*/
@@ -60,4 +93,4 @@ html, body {
 /*--------benefits-section-----------*/
 /*--------brand-section-----------*/
 /*--------contact-section-----------*/
-/*--------footer-section-----------*/
+/*--------footer-section-----------*//*# sourceMappingURL=style.css.map */

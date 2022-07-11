@@ -9,16 +9,22 @@
     --e-global-color-0d3036c: #EDEDED;
     --e-global-color-024918e: #ECCD39
 */
-/*=========Color-Variable========
-$mainbgColor: #161616;#4D483B
-$bgColor: #121212;
-$btnColor: #0a0909;#b19777
-$mainColor: #EDEDED;#8C8C8C
-$textColor: #AAC0C6;#5A5A5A
-$contentColor: #C6C6BB;#D1CCBE
+/*=========Color-Variable========*/
+$mainbgColor: #181818;
+$linkColor: #b19777;
+$bgColor: #212121;
+$Color: #0a0909;
+$mainColor: #8C8C8C;
+$other-textColor: #5A5A5A;
+$contentColor: #D1CCBE;
 $headingColor: #000;
 $fontColor: #fff;
-*/
+$textColor: #929292;
+$titleColor: #D0CCC8;
+$listColor: #B2B2B2;
+$fadetextColor: #9A9A9A;
+$btnColor: #86735D;
+$cirlceColor: #FEFEFE;
 /*=========Font-Variable========*/
 $mainFont: 'Poppins', sans-serif;
 $textFont: 'Courier Prime', monospace;
@@ -34,7 +40,12 @@ $textFont: 'Courier Prime', monospace;
     justify-content: center;
     align-items: center;
 }
-
+%bgImage{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 *{
     padding: 0;
@@ -43,10 +54,11 @@ $textFont: 'Courier Prime', monospace;
 }
 
 html,body{
-    font-size: 16px;
+    font-size: 24px;
     width: 100%;
     height: 100%;
-    font-family: $textFont;
+    font-family: $mainFont;
+
 }
 
 .main-head{
@@ -63,8 +75,14 @@ html,body{
 .flex-content{
     display: flex;
     flex-wrap: wrap;
+
 }
+    /*--------nav-section-----------*/
+@import "nav"; 
+
     /*--------header-section-----------*/
+@import "header";
+
     /*--------about-section-----------*/
 
     /*--------desing-section-----------*/
