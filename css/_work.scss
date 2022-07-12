@@ -1,5 +1,5 @@
 .our-work{
-    background-color: $bgColor;
+    background-color: $mainbgColor;
     padding-bottom: 50px;
 
     .work-head{
@@ -12,7 +12,7 @@
     } 
 
     .work-slide{
-        
+        position: relative;
         .work-image{
 
             img{
@@ -24,5 +24,16 @@
 
     }
 
+    .work-content-slide{
+        
+
+        .content{
+
+            span{
+                
+            }
+        }
+
+    }
 
 }

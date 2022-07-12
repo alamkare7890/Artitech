@@ -1,0 +1,57 @@
+.our-blog{
+    background-color: $fontColor;
+    padding: 50px 0;
+
+    h2{
+        color: $bgColor;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .blog{
+        padding-top: 30px;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .date{
+            text-transform: uppercase;
+            color: $btnColor;
+            font-size: 0.85rem;
+            margin-top: 20px;
+
+        }
+        .brand-name{
+            display: block;     
+            text-transform: uppercase;
+            color: $btnColor;
+            font-size: 0.85rem;
+            padding-top: 10px;
+        }
+
+        h3{ 
+            color: $bgColor;
+            padding-bottom: 15px;
+        }
+        p{
+            color: $fadetextColor;
+        }
+
+        a{
+            font-size: 0.85rem;
+            color: $bgColor;
+            text-transform: uppercase;
+            font-weight: 400;
+            .bg-btn{
+                background-color: $btnbgColor;
+                padding: 12px;
+            }
+
+        }
+
+    }
+
+
+}

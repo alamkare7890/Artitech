@@ -39,7 +39,7 @@ html, body {
 }
 
 .para {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 400;
   color: #929292;
 }
@@ -59,6 +59,10 @@ html, body {
   max-width: 1366px;
 }
 
+.light {
+  font-weight: 400;
+}
+
 .title {
   text-transform: uppercase;
   font-size: 1rem;
@@ -66,6 +70,12 @@ html, body {
   color: #fff;
   padding-bottom: 5px;
   border-bottom: 2px solid #fff;
+}
+
+.tag {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.75rem;
 }
 
 /*--------nav-section-----------*/
@@ -238,7 +248,7 @@ html, body {
 /*--------desing-section-----------*/
 /*--------work-section-----------*/
 .our-work {
-  background-color: #212121;
+  background-color: #181818;
   padding-bottom: 50px;
 }
 .our-work .work-head {
@@ -248,15 +258,66 @@ html, body {
 .our-work .work-head h2 {
   padding: 30px 0 15px 0;
 }
+.our-work .work-slide {
+  position: relative;
+}
 .our-work .work-slide .work-image img {
   width: 100%;
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 /*--------partner-section-----------*/
 /*--------blog-section-----------*/
+.our-blog {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.our-blog h2 {
+  color: #212121;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.our-blog .blog {
+  padding-top: 30px;
+}
+.our-blog .blog img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-blog .blog .date {
+  text-transform: uppercase;
+  color: #86735D;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
+.our-blog .blog .brand-name {
+  display: block;
+  text-transform: uppercase;
+  color: #86735D;
+  font-size: 0.85rem;
+  padding-top: 10px;
+}
+.our-blog .blog h3 {
+  color: #212121;
+  padding-bottom: 15px;
+}
+.our-blog .blog p {
+  color: #9A9A9A;
+}
+.our-blog .blog a {
+  font-size: 0.85rem;
+  color: #212121;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.our-blog .blog a .bg-btn {
+  background-color: #E9EDED;
+  padding: 12px;
+}
+
 /*--------evnets-section-----------*/
 /*--------project-section-----------*/
 /*--------benefits-section-----------*/
