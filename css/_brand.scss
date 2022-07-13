@@ -1,0 +1,22 @@
+.our-brand{
+    padding:  100px 0;
+    background-color: $mainbgColor;
+
+    .brand{
+        padding: 50px;
+        border-bottom: 2px solid $fontColor;
+        border-left: 2px solid $fontColor;
+        img{
+            width: 100%;
+        }
+
+    } 
+    .no-border{
+        border-bottom: 0;
+    }
+    .border-no{
+        border-left: 0;
+    }
+
+
+}

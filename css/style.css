@@ -10,6 +10,14 @@
 */
 /*=========Color-Variable========*/
 /*=========Font-Variable========*/
+.our-project .project-content .send-btn {
+  padding: 15px 35px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -29,6 +37,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
+  background-color: #212121;
 }
 
 .main-head {
@@ -42,6 +51,7 @@ html, body {
   font-size: 0.85rem;
   font-weight: 400;
   color: #929292;
+  line-height: 1.5;
 }
 
 .secondary-head {
@@ -142,7 +152,6 @@ html, body {
   height: 950px;
   background-color: #181818;
   position: relative;
-  z-index: -1;
 }
 .banner-slide img {
   width: 100%;
@@ -157,8 +166,7 @@ html, body {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 0;
-  background-color: rgba(33, 33, 33, 0.3882352941);
+  z-index: 1;
 }
 .header .overlay {
   position: relative;
@@ -318,7 +326,65 @@ html, body {
 
 /*--------evnets-section-----------*/
 /*--------project-section-----------*/
+.our-project {
+  padding: 100px 0;
+}
+.our-project .bg-back {
+  width: 550px;
+  height: 400px;
+  margin-top: 100px;
+  background-color: #181818;
+  position: relative;
+}
+.our-project .image {
+  position: absolute;
+  left: 12%;
+  top: 35%;
+  transform: translateY(-30%);
+}
+.our-project .image img {
+  width: 400px;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-project .project-content {
+  padding: 100px 0;
+}
+.our-project .project-content h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.our-project .project-content p {
+  padding: 20px 0;
+}
+.our-project .project-content .send-btn {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  padding: 20px 60px;
+}
+
 /*--------benefits-section-----------*/
 /*--------brand-section-----------*/
+.our-brand {
+  padding: 100px 0;
+  background-color: #181818;
+}
+.our-brand .brand {
+  padding: 50px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+.our-brand .brand img {
+  width: 100%;
+}
+.our-brand .no-border {
+  border-bottom: 0;
+}
+.our-brand .border-no {
+  border-left: 0;
+}
+
 /*--------contact-section-----------*/
 /*--------footer-section-----------*//*# sourceMappingURL=style.css.map */
