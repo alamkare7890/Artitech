@@ -11,11 +11,16 @@
 /*=========Color-Variable========*/
 /*=========Font-Variable========*/
 .our-project .project-content .send-btn {
-  padding: 15px 35px;
+  padding: 15px 60px;
   text-decoration: none;
   display: inline-block;
   font-size: 0.75rem;
   text-transform: uppercase;
+}
+
+.footer-section .social-icon li {
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -274,6 +279,55 @@ html, body {
      object-fit: cover;
 }
 /*--------partner-section-----------*/
+.trigger-btn {
+  position: relative;
+}
+.trigger-btn img {
+  width: 100%;
+  height: 950px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.trigger-btn .large-btn {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  z-index: 0;
+  cursor: pointer;
+}
+.trigger-btn .large-btn .icon {
+  z-index: 5;
+  border: 2px solid #D1CCBE;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  border-radius: 50%;
+  place-content: center;
+}
+.trigger-btn .large-btn .icon .play {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.trigger-btn .large-btn::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.041);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  top: 0;
+  z-index: -1;
+}
+
 /*--------blog-section-----------*/
 .our-blog {
   background-color: #fff;
@@ -325,6 +379,72 @@ html, body {
 }
 
 /*--------evnets-section-----------*/
+.our-events {
+  padding: 50px 0;
+}
+.our-events .event-title {
+  padding: 30px 0;
+}
+.our-events .event-title h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.our-events .event-date {
+  color: #fff;
+  padding: 10px 0;
+}
+.our-events .event-content {
+  padding: 10px 0;
+}
+.our-events .image {
+  width: 100%;
+  height: 800px;
+}
+.our-events .image .part-one {
+  height: 650px;
+  width: 100%;
+  position: relative;
+  vertical-align: center;
+  top: 25%;
+}
+.our-events .image .part-one img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+}
+.our-events .image .part-two {
+  height: 950px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.our-events .image .part-two img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.our-events .image .part-three {
+  height: 650px;
+  width: 100%;
+  position: relative;
+  top: 16%;
+}
+.our-events .image .part-three img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+}
+
 /*--------project-section-----------*/
 .our-project {
   padding: 100px 0;
@@ -387,4 +507,119 @@ html, body {
 }
 
 /*--------contact-section-----------*/
-/*--------footer-section-----------*//*# sourceMappingURL=style.css.map */
+.contact-now {
+  padding: 50px 0;
+}
+.contact-now .located {
+  height: 550px;
+  width: 100%;
+}
+.contact-now .located iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact-now .form-head {
+  padding: 30px 0 0 0;
+}
+.contact-now .form-head h3 {
+  padding-top: 20px;
+  color: #fff;
+}
+.contact-now form {
+  text-align: center;
+  padding: 30px 0;
+}
+.contact-now form input, .contact-now form textarea {
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid #D1CCBE;
+  padding: 25px 15px;
+  border-radius: 0;
+  caret-color: #D1CCBE;
+  margin: 0 10px;
+}
+.contact-now form textarea {
+  height: 250px;
+  margin-top: 20px;
+  width: 100%;
+  caret-color: #D1CCBE;
+}
+.contact-now form input::-moz-placeholder, .contact-now form textarea::-moz-placeholder {
+  color: #D1CCBE;
+}
+.contact-now form input:-ms-input-placeholder, .contact-now form textarea:-ms-input-placeholder {
+  color: #D1CCBE;
+}
+.contact-now form input::placeholder, .contact-now form textarea::placeholder {
+  color: #D1CCBE;
+}
+.contact-now form input:focus {
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  color: #D1CCBE;
+}
+.contact-now form button {
+  padding: 25px 10px;
+  background-color: transparent;
+  border: 2px solid #181818;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.contact-now form button span {
+  padding: 15px 100px;
+  background-color: #181818;
+  color: #D1CCBE;
+  text-transform: uppercase;
+}
+
+/*--------footer-section-----------*/
+.footer-section {
+  padding: 100px 0;
+  position: relative;
+}
+.footer-section .bg-color {
+  background-color: #181818;
+  width: 85%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footer-section .footer {
+  padding: 100px 50px;
+}
+.footer-section .footer .logo img {
+  width: 100%;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer-section .footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #212121;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer-section .menu-item ul li {
+  padding-bottom: 10px;
+}
+.footer-section .menu-item ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-section .social-icon li {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #D1CCBE;
+  border-radius: 50%;
+  display: flex;
+  margin-right: -10px;
+}
+.footer-section .social-icon li a {
+  font-size: 1.2rem;
+  color: #D1CCBE;
+}/*# sourceMappingURL=style.css.map */

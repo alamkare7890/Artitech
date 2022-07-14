@@ -1,0 +1,48 @@
+.trigger-btn{   
+    position: relative;
+        img{
+            width: 100%;
+            height: 950px;
+            object-fit: cover;
+        }
+ 
+    .large-btn{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%);
+        display: grid;
+        place-content: center;  
+        border-radius: 50%;
+        z-index: 0; 
+        cursor: pointer;
+        .icon{
+            z-index: 5;
+            border: 2px solid $contentColor;
+            width: 300px;       
+            height: 300px;
+            display: grid;
+            border-radius: 50%;
+            place-content: center;
+            .play{
+                font-size: 1.5rem;
+                color: #fff;
+            }
+        }
+    }
+    .large-btn::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.041);
+        backdrop-filter: blur(5px);
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+        top: 0;
+        z-index: -1;
+    }
+
+}

@@ -30,7 +30,7 @@ $btnbgColor: #E9EDED;
 $mainFont: 'Poppins', sans-serif;
 $textFont: 'Courier Prime', monospace;
 %mainBtn{
-    padding: 15px 35px;
+    padding: 15px 60px;
     text-decoration: none;
     display: inline-block;
     font-size: 0.75rem;
@@ -124,11 +124,11 @@ html,body{
     /*--------work-section-----------*/
 @import "work";
     /*--------partner-section-----------*/
-
+@import "partner";
     /*--------blog-section-----------*/
 @import "article";
     /*--------evnets-section-----------*/
-
+@import "event";
     /*--------project-section-----------*/
 @import "project";
     /*--------benefits-section-----------*/
@@ -136,4 +136,6 @@ html,body{
     /*--------brand-section-----------*/
 @import "brand";
     /*--------contact-section-----------*/
+@import "contact";
     /*--------footer-section-----------*/
+@import "footer";
