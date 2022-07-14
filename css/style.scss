@@ -14,11 +14,13 @@ $mainbgColor: #181818;
 $linkColor: #b19777;
 $bgColor: #212121;
 $Color: #0a0909;
-$mainColor: #8C8C8C;
+$mainColor: #000000;
 $other-textColor: #5A5A5A;
 $contentColor: #D1CCBE;
 $headingColor: #000;
 $fontColor: #fff;
+$bgwhite: #F3F3F3;
+$bgwhite-2: #f9f9f9;
 $textColor: #929292;
 $titleColor: #D0CCC8;
 $listColor: #B2B2B2;
@@ -101,8 +103,13 @@ html,body{
     font-size: 1rem;
     font-weight: 400;
     color: $fontColor;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 2px solid $fontColor;
+
+}
+.title-dark{
+    border-bottom: 2px solid $mainbgColor;
+    color: $mainbgColor;
 
 }
 .tag{

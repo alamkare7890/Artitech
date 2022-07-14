@@ -83,8 +83,13 @@ html, body {
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 2px solid #fff;
+}
+
+.title-dark {
+  border-bottom: 2px solid #181818;
+  color: #181818;
 }
 
 .tag {
@@ -326,6 +331,61 @@ html, body {
   border-radius: 50%;
   top: 0;
   z-index: -1;
+}
+
+.awesome-partner {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  /*
+      .milestone::before{
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: $bgwhite;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+      }
+  */
+}
+.awesome-partner .reward {
+  padding: 30px;
+}
+.awesome-partner .reward h2 {
+  color: #000000;
+  padding: 30px 0 20px 0;
+}
+.awesome-partner .reward .year {
+  font-size: 10rem;
+  color: #000000;
+}
+.awesome-partner .reward .exprience {
+  color: #000000;
+  text-transform: uppercase;
+}
+.awesome-partner .milestone {
+  position: relative;
+  z-index: 0;
+  padding: 30px 50px;
+}
+.awesome-partner .milestone h2 {
+  padding: 30px 0 20px 0;
+}
+.awesome-partner .milestone .target {
+  padding: 20px 0;
+}
+.awesome-partner .milestone .target span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.awesome-partner .milestone .team {
+  padding: 20px 0;
+}
+.awesome-partner .milestone .team h4 {
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
 }
 
 /*--------blog-section-----------*/
