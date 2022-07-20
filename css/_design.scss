@@ -1,0 +1,59 @@
+.our-demo{
+    position: relative;
+
+    .slide-bg{
+        img{
+ 
+            width: 100%;
+            z-index: -1;
+        }
+    }
+    .bg-panel{
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        z-index: 0;
+        .demo-one{
+            height: 100%;
+            margin: 0 -15px;
+            backdrop-filter: blur(8px);
+            z-index: 10;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.186);
+            transition: all 0.4s ease;
+            cursor: alias;
+            img{
+                width: 250px;
+                height: 250px;
+                object-fit: contain;
+            }
+            h3{
+                color:$cirlceColor;
+                text-transform: uppercase;
+                padding: 20px 0;
+            }
+            p{
+                transform: rotateX(90deg);
+                transition: all 0.5s ease;
+                -webkit-line-clamp: 0;
+
+            }
+
+
+        }  
+        .demo-two{
+            border-left: 1px solid $linkColor;
+            border-right: 1px solid $linkColor;
+
+        }
+        .demo-one:hover{
+            backdrop-filter: none;
+        }
+        .demo-one:hover p{
+            transform: rotateX(0);
+        }
+
+    }
+
+} 

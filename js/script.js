@@ -26,6 +26,15 @@ $(document).ready(function () {
         
     })
     
+    /*=======bg-slide========*/
+    $('.slide-bg').slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    
+    
+    
+    })
 
         
     
