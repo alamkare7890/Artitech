@@ -110,3 +110,34 @@
 */
 
 }
+.our-client{
+    @extend %section;
+
+    .client-head{
+
+        h2{
+            padding: 25px 0;
+            color: $fontColor;
+        }
+
+    }
+
+    .client{
+        padding: 10px;
+        margin: 10px;
+
+
+
+    }
+
+    .client-pro{
+
+        .image{
+
+            img{}
+
+        }
+
+    }
+
+}

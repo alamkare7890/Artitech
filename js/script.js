@@ -35,6 +35,14 @@ $(document).ready(function () {
     
     
     })
+    /*=======client-slide========*/
+    $('.slide-client').slick({
+    
+        arrows: false,
+    
+    
+    
+    })
 
         
     

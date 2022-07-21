@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.our-client {
+  padding: 50px 0;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -96,6 +100,15 @@ html, body {
   text-transform: uppercase;
   color: #fff;
   font-size: 0.75rem;
+}
+
+.skill {
+  background-color: #5A5A5A;
+  color: #86735D;
+  text-transform: capitalize;
+  font-size: 0.85rem;
+  padding: 5px 7px;
+  border-radius: 5px;
 }
 
 .center {
@@ -270,9 +283,27 @@ html, body {
 .our-demo {
   position: relative;
 }
+.our-demo .slide-bg {
+  position: relative;
+  z-index: 0;
+}
 .our-demo .slide-bg img {
   width: 100%;
   z-index: -1;
+  height: 880px;
+}
+.our-demo .slide-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 1;
+  opacity: 0.5;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 .our-demo .bg-panel {
   position: absolute;
@@ -282,10 +313,11 @@ html, body {
 }
 .our-demo .bg-panel .demo-one {
   height: 100%;
+  padding: 180px 0;
   margin: 0 -15px;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
-  z-index: 10;
+  z-index: 20;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.186);
   transition: all 0.4s ease;
@@ -303,6 +335,7 @@ html, body {
   padding: 20px 0;
 }
 .our-demo .bg-panel .demo-one p {
+  color: #fff;
   transform: rotateX(90deg);
   transition: all 0.5s ease;
   -webkit-line-clamp: 0;
@@ -334,11 +367,21 @@ html, body {
 .our-work .work-slide {
   position: relative;
 }
+.our-work .work-slide .work-image {
+  z-index: 0;
+}
 .our-work .work-slide .work-image img {
   width: 100%;
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.our-work .work-content-slide .content {
+  padding: 100px;
+  transform: translateX(-50%);
+  overflow-x: hidden;
+  position: relative;
+  text-overflow: ellipsis;
 }
 /*--------partner-section-----------*/
 .trigger-btn {
@@ -445,6 +488,14 @@ html, body {
   font-weight: 600;
 }
 
+.our-client .client-head h2 {
+  padding: 25px 0;
+  color: #fff;
+}
+.our-client .client {
+  padding: 10px;
+  margin: 10px;
+}
 /*--------blog-section-----------*/
 .our-blog {
   background-color: #fff;

@@ -121,6 +121,14 @@ html,body{
     color: $fontColor;
     font-size: 0.75rem;
 }
+.skill{
+    background-color: #5A5A5A;
+    color: $btnColor;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
 .center{
     justify-content: center;
     align-items: center;
