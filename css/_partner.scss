@@ -112,7 +112,7 @@
 }
 .our-client{
     @extend %section;
-
+    padding: 100px 0;
     .client-head{
 
         h2{
@@ -126,12 +126,16 @@
         padding: 10px;
         margin: 10px;
 
+        p{
+            padding: 15px 0;
+        }
 
 
     }
 
-    .client-pro{
+    .client-pro{   
 
+        padding: 15px 0;
         .image{
             width: 85px;
             height: 85px;    
@@ -142,6 +146,15 @@
                 object-fit: cover;
             }
 
+        }
+        .about-client{
+            padding: 0 15px;
+            .name{
+                color: $bgwhite;
+            }
+            p{
+                padding: 5px 0;
+            }
         }
 
     }

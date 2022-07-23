@@ -488,6 +488,9 @@ html, body {
   font-weight: 600;
 }
 
+.our-client {
+  padding: 100px 0;
+}
 .our-client .client-head h2 {
   padding: 25px 0;
   color: #fff;
@@ -495,6 +498,12 @@ html, body {
 .our-client .client {
   padding: 10px;
   margin: 10px;
+}
+.our-client .client p {
+  padding: 15px 0;
+}
+.our-client .client-pro {
+  padding: 15px 0;
 }
 .our-client .client-pro .image {
   width: 85px;
@@ -506,6 +515,15 @@ html, body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.our-client .client-pro .about-client {
+  padding: 0 15px;
+}
+.our-client .client-pro .about-client .name {
+  color: #F3F3F3;
+}
+.our-client .client-pro .about-client p {
+  padding: 5px 0;
 }
 
 /*--------blog-section-----------*/
