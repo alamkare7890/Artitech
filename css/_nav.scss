@@ -29,6 +29,24 @@
         }
     }
 
+    .drop-nav{
+        background-color: $listColor;
+        li{
+            padding-bottom: 10px;    
+            a{
+                color: $btnbgColor;
+                font-size: 0.85rem;
+                transition: all 0.4s linear;
+            }
+        }
+        li:hover a{
+            color: $linkColor;
+        }
+
+
+
+    }
+
  
 }
 /*==========navigation-media==========*/
@@ -37,10 +55,6 @@ html,body{
     font-size: 16px;
 }
     .navigation{
-        width: 100%;
-        height: 100%;
-        background-color: $bgColor;
-        opacity: 0.9;
         position: relative;
         .logo{
             display: none;
@@ -49,12 +63,29 @@ html,body{
         ul{
             padding: 50px;
             text-align: center;
+            width: 100%;
+            height: 100%;
+            background-color: #21212163;
+            position: fixed;
             li{ 
                 a{
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                    
 
                 }
+                .drop-nav{
+                    background: transparent;
+                    li{
+
+                        a{
+                            font-size: 1rem;
+                            color: $fontColor; 
+                        }    
+
+                    }
+                }
+
+
             }
 
         }
